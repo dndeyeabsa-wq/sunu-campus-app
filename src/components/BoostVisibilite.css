@@ -1,0 +1,138 @@
+.boost-container {
+  padding: 20px;
+  background: #F5F5F5;
+  min-height: 100%;
+}
+
+.boost-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.boost-header svg {
+  margin-bottom: 16px;
+}
+
+.boost-header h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: #212121;
+}
+
+.boost-header p {
+  color: #666;
+  font-size: 14px;
+}
+
+.boost-options {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.boost-card {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 3px solid transparent;
+  position: relative;
+}
+
+.boost-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.boost-card.selected {
+  border-color: #FF9800;
+  box-shadow: 0 12px 24px rgba(255, 152, 0, 0.2);
+}
+
+.popular-badge {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);
+  color: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.boost-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.boost-card h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #212121;
+}
+
+.boost-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FF9800;
+  margin-bottom: 8px;
+}
+
+.boost-description {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.boost-duration {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #999;
+  font-size: 14px;
+}
+
+.btn-confirm-boost {
+  width: 100%;
+  padding: 18px;
+  background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);
+  color: white;
+  border: none;
+  border-radius: 28px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 24px;
+  transition: all 0.3s;
+}
+
+.btn-confirm-boost:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(255, 152, 0, 0.4);
+}
+
+.boost-benefits {
+  background: linear-gradient(135deg, #E8F5E9 0%, #FFFFFF 100%);
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.boost-benefits h3 {
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #2E7D32;
+}
+
+.boost-benefits ul {
+  list-style: none;
+  padding: 0;
+}
+
+.boost-benefits li {
+  padding: 8px 0;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}

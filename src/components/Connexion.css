@@ -1,0 +1,160 @@
+.connexion-container {
+  height: 100%;
+  background: linear-gradient(180deg, #E3F2FD 0%, #FFFFFF 100%);
+  display: flex;
+  flex-direction: column;
+  padding: 40px 24px;
+  overflow-y: auto;
+}
+
+.connexion-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 20px rgba(46, 125, 50, 0.2);
+}
+
+.connexion-header h1 {
+  font-size: 28px;
+  color: #2E7D32;
+  margin-bottom: 8px;
+  font-weight: 800;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.connexion-illustration {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.book-stack {
+  position: relative;
+  width: 200px;
+  height: 120px;
+}
+
+.book {
+  position: absolute;
+  width: 120px;
+  height: 80px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.book-1 {
+  background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+  bottom: 0;
+  left: 0;
+  transform: rotate(-5deg);
+}
+
+.book-2 {
+  background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
+  bottom: 20px;
+  left: 30px;
+  transform: rotate(2deg);
+}
+
+.book-3 {
+  background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);
+  bottom: 40px;
+  left: 60px;
+  transform: rotate(8deg);
+}
+
+.connexion-form {
+  margin-top: 20px;
+}
+
+.btn-email-etudiant {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #2E7D32 0%, #1B5E20 100%);
+  color: white;
+  border: none;
+  border-radius: 28px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+}
+
+.btn-email-etudiant:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(46, 125, 50, 0.3);
+}
+
+.separator {
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background: #E0E0E0;
+}
+
+.separator::before {
+  left: 0;
+}
+
+.separator::after {
+  right: 0;
+}
+
+.separator span {
+  background: white;
+  padding: 0 10px;
+  color: #999;
+  font-size: 14px;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+.signup-link span {
+  color: #2E7D32;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.info-badge {
+  margin-top: 30px;
+  padding: 12px;
+  background: rgba(76, 175, 80, 0.1);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.info-badge p {
+  color: #2E7D32;
+  font-size: 13px;
+  font-weight: 600;
+}
