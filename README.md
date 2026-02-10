@@ -28,4 +28,16 @@ npm install
 npm start
 
 L’application sera disponible sur http://localhost:3000
-.
+
+#Prochaine étape suggérée :
+
+#Créer des branches pour chaque fonctionnalité pour que chacun puisse travailler sans conflit.
+#Exemple :
+
+git checkout -b feature/amelioration-FilPrincipal
+
+#Puis, après les modifications :
+
+git add .
+git commit -m "amelioration-FilPrincipal"
+git push origin feature/amelioration-FilPrincipal
